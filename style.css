@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 25px;
+}
+
+.div-header{
+    color: white;
+    font-size: 20px;
+}
+
+
+a{
+     text-decoration: none;
+     padding: 10px;
+     color: white;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-bar{
+    display: flex;
+}
+
+
+/*fim do header */
+
+
+.container-maca{
+    display: flex;
+  
+}
+
+.maca{
+    display: flex;
+    border-radius: 15px;
+    margin: 100px;
+    width: 400px;
+    box-shadow: -2px 20px 99px -1px rgba(0, 0, 0, 0.78);
+}
+
+.buttons{
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   height: 200px ;
+   display: grid;
+   grid-template-columns: 200px 200px;
+   border-radius: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ButtonConfirm{
+  height: 100px;
+  width: 200px;
+
+}
+.Confirmar{
+    padding-right: 500px;
+}
